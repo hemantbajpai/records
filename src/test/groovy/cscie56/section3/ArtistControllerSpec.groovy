@@ -12,7 +12,8 @@ class ArtistControllerSpec extends Specification {
 
         // TODO: Populate valid properties like...
         //params["name"] = 'someValidName'
-        assert false, "TODO: Provide a populateValidParams() implementation for this generated test suite"
+        //assert false, "TODO: Provide a populateValidParams() implementation for this generated test suite"
+        params << [firstName: 'firstName', lastName: 'lastName', countryOfOrigin: 'UK']
     }
 
     void "Test the index action returns the correct model"() {
